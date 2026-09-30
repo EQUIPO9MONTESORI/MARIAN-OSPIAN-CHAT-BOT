@@ -1,6 +1,27 @@
-body{
-  padding: 25px;
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizzing: border-box;
+	font-family: "Rosa roja", sans-serif;
 }
-.title {
-	color: #FFFFFF;
+
+
+body {
+	background-image: linear-gradient(90.2deg, rgba (1, 47, 95, 1) -0.4%, rgba(56, 141, 217, 1) 106.1%);
+	colr:#333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
+
+.chat-container {
+	width: 400px;
+	height: 600px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(10px);
+	border-radius: 15px;
+	box-shadow: 0 8px 32px;
+	flex-direction: column;
+	
